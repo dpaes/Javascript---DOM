@@ -1,0 +1,74 @@
+html{
+    background-color: rgb(187, 182, 182);
+}
+
+.box-master{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 98vw;
+    height: 95vh;
+}
+
+.box-menu{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.hr{
+    border: 2px solid lightgrey;
+    background-color: lightgrey;
+    width: 25%;
+    height: 2px;
+}
+
+#linkComecar{
+    text-decoration: none;
+    color: black;
+    background-color:rgb(153, 229, 153) ;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#savePlayersNameBtn{
+    color: black;
+    background-color: rgb(153, 229, 153);
+    border-radius: 10px;
+}
+
+#gameBoard {
+    background-color: #232323;
+    display: grid;
+    grid-template-columns: 6rem 6rem 6rem;
+    grid-template-rows: 6rem 6rem 6rem;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    max-width: 19rem;
+}
+
+#gameBoard span {
+    background-color: #ddd;
+    display: grid;
+    place-content: center;
+    font-size: 5rem;
+}
+
+#gameBoard span.win {
+    background-color: #25a340;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
