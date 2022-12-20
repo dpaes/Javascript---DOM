@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cadastro de Devs</title>
+        <script src="./main.js" defer></script>
+    </head>
+    <body>
+    <h1>Cadastro de Devs</h1>
+    <hr />
+    <form id="devForm">
+        <label for="devName">Nome Completo do Desenvolvedor:</label>
+        <input type="text" name="devName" id="devName" />
+        <br><br>
+        <label for="techsList">Tecnologias:</label> 
+        <br>
+        <input
+        type="button"
+        name="newTech"
+        id="newTech"
+        value="Adicionar Nova Tecnologia"
+        />
+        <br>
+        <ul id="techLines"></ul>
+        <input type="submit" name="submit" id="submit" value="Cadastrar Dev">
+    </form>
+    </body>
+</html>
