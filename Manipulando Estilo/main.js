@@ -18,6 +18,7 @@ document.getElementById('darkBtn').addEventListener('click', useDarkTheme);
 document.getElementById('switchBtn').addEventListener('click', switchTheme);
 
 
-/* Nesse exercicio, não é possível usar o switch e os outros 2 botões alternando entre o switch e os outros dois
-pois a prioridade é sempre o inline, logo que mudar para o botão light e dark theme, o switch não vai funcionar por causa do inline.
-em um projeto real favor escolher qual dos dois usar. */
+/* Nesse exercicio, não é possível usar o switch e os outros 2 botões alternando
+entre o switch e os outros dois, pois a prioridade é sempre o inline, logo que
+mudar para o botão light e dark theme, o switch não vai funcionar por causa do inline.
+Em um projeto real favor escolher qual dos dois usar. */
